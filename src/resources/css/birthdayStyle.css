@@ -1,0 +1,83 @@
+#mainContainer{
+    /* background-color: aqua; */
+}
+#weekCardsContainer{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    min-width: 10%;
+    min-width: 90%; 
+
+}
+.weekCard{
+    min-width: 10%;
+   
+   
+}
+#weekNameHeader{
+    text-align: right;
+    color: white;
+    background-color: #AB9EEE;
+    border-top-left-radius: 18%;
+    border-top-right-radius: 18%;
+
+}
+#birthdayNamesWeekContainer{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+body{
+    background-color:#EAF0F2 ;
+}
+#inputJSON{
+/* margin: 10%; */
+}
+#birthdayInfoContainer{
+    margin: 5%;
+}
+.name_card{
+    min-width: 10px;
+    min-height: 10px;   
+    flex-grow: 1;
+    text-align: center;
+    color: white;
+    /* align-self:flex-start;   */
+
+}
+
+.name_card:nth-child(7n+1) {
+    background-color: #555D7B;
+  }
+  .name_card:nth-child(7n+2) {
+    background-color: #9FD400;
+  }
+  .name_card:nth-child(7n+3) {
+    background-color: #C97D99;
+  }
+  .name_card:nth-child(7n+4) {
+    background-color: #79CAE5;
+  }
+  .name_card:nth-child(7n+5) {
+    background-color: #E8492A;
+  }
+  .name_card:nth-child(7n+6) {
+    background-color: #FF1BAA;
+  }
+  .name_card:nth-child(7n+7) {
+    background-color: #0055D0;
+  }
+  #birthdayInfoContainer, #birthdayYearContainer{
+      display:inline-block;
+  }
+  #birthdayYearContainer{
+      vertical-align: top;
+      margin-top:5%;
+  }
+  #headerBirthday {
+    text-align: center;
+    color: grey;
+    font-size: 255%;
+  }
