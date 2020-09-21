@@ -1,5 +1,7 @@
 #mainContainer{
     /* background-color: aqua; */
+    min-width: 1500px;
+    overflow: auto;
 }
 #weekCardsContainer{
     display:flex;
@@ -27,7 +29,8 @@
     height: 200px;
     background-color: white;
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
+    overflow:auto;
 }
 body{
     background-color:#EAF0F2 ;
@@ -44,6 +47,8 @@ body{
     flex-grow: 1;
     text-align: center;
     color: white;
+    flex-shrink: 0;
+    flex-basis: 50%;
     /* align-self:flex-start;   */
 
 }
